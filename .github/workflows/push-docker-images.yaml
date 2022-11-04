@@ -16,7 +16,7 @@ name: Push Docker Images
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   FRONTEND_DOCKER_REPOSITORY: osmolabs/osmosis-frontend
